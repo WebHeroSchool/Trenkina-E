@@ -10,3 +10,7 @@ body {
   margin: 0;
   border: dashed 1px red;
 } 
+
+.menu__item {
+    border: dashed 1 px red;
+}
