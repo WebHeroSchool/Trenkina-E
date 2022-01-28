@@ -23,7 +23,6 @@ body {
 margin: auto;
 width: 80%;
 border: dashed 1px red;
-background-image: url(/img/logo.svg);
 }
 
 
@@ -31,6 +30,7 @@ background-image: url(/img/logo.svg);
 display: flex;
 justify-content: space-between;
 border: dashed 1px red;
+background-image: url(img/logo.svg);
 }
 
 .menu {
