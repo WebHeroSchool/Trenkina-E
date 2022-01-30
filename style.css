@@ -1,6 +1,6 @@
 .main-content__title {
 
- font-family: sans-serif;
+ font-family: 'pt_serifbold';
 }
 
 title {
@@ -10,6 +10,10 @@ title {
 .main-content__subtitle {
 
  font-family: 'Roboto', sans-serif;
+}
+
+.menu__item {
+ font-family: 'Roboto';   
 }
 
 body {
@@ -25,7 +29,6 @@ width: 80%;
 .header {
 display: flex;
 justify-content: space-between;
-border: dashed 1px;
 background-image: url(img/logo.svg);
 height: 35px;
 background-repeat: no-repeat;
