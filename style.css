@@ -14,13 +14,11 @@ title {
 
 body {
   margin: 0;
-  border: dashed 1px;
 }
 
 .wrapper {
 margin: auto;
 width: 80%;
-border: dashed 1px red;
 }
 
 
