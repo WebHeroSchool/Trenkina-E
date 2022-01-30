@@ -1,6 +1,6 @@
 .main-content__title {
 
- font-family: 'Roboto', sans-serif;
+ font-family: sans-serif;
 }
 
 title {
@@ -25,7 +25,7 @@ width: 80%;
 .header {
 display: flex;
 justify-content: space-between;
-border: dashed 1px red;
+border: dashed 1px;
 background-image: url(img/logo.svg);
 height: 35px;
 background-repeat: no-repeat;
