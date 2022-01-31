@@ -17,7 +17,7 @@ title {
 }
 
 body {
-  margin: 0;
+  margin: 47 px;
 }
 
 .wrapper {
@@ -80,5 +80,5 @@ align-items: center;
 
 .logo {
     padding: 40 px 0;
-    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+    font:pt_serif, arial, helvetica, sans-serif;
 }
