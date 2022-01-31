@@ -29,9 +29,6 @@ width: 80%;
 .header {
 display: flex;
 justify-content: space-between;
-background-image: url(img/logo.svg);
-height: 35px;
-background-repeat: no-repeat;
 }
 
 .menu {
@@ -79,4 +76,9 @@ align-items: center;
 }
 .menu__item:hover:after, .menu__item_active:after {
     opacity: 1; 
+}
+
+.logo {
+    padding: 40 px 0;
+    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
