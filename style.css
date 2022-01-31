@@ -5,8 +5,8 @@
 
 title {
     font-family: 'pt_serif';
-
 }
+
 .main-content__subtitle {
 
  font-family: 'Roboto', sans-serif;
@@ -17,7 +17,7 @@ title {
 }
 
 body {
-  margin: 47 px;
+  margin: 47px;
 }
 
 .wrapper {
@@ -77,5 +77,7 @@ align-items: center;
 .menu__item:hover:after, .menu__item_active:after {
     opacity: 1; 
 }
-
-
+.logo {
+    padding: 40px 0;
+    font-family: 'pt_serif';
+}
