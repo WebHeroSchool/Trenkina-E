@@ -84,7 +84,7 @@ align-items: center;
 }
 
 .main {
-   padding-right: 0 63% 100px 0;
+   padding: 0 63% 100px 0;  
    background: top right no-repeat url(img/frame.svg);
 }
 
@@ -97,7 +97,7 @@ align-items: center;
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-   display: online-block;
+   display: inline-block;
    font: 14px/16px Roboto, arial, helvetica, sans-serif; 
    color: #fff;
    background: #OO56EC;
