@@ -91,6 +91,7 @@ align-items: center;
 .main__title {
     margin-bottom: 0 0 40px 0;
     font: 50px/65px pt_serif;
+    line height: 66,25px;
 }
 .main__subtitle {
     margin-bottom: 0 0 41px 0;
@@ -110,7 +111,7 @@ align-items: center;
   background:#ECF3FF; 
   margin-bottom: 0 0 40px 0;
   font: 50px/65px 'pt_serif';
-
+  line height: 66,25px;
 }
 .main__button:hover {
     opacity: .5;
