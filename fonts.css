@@ -1,14 +1,7 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap') format('woff');
+    src: url(''https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'') format('woff2'),
+         url(''https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'pt_serifbold';
-    src: url('ptserif-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
