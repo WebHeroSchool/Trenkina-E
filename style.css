@@ -107,7 +107,10 @@ align-items: center;
    transition: opacity .5s;
 }
 .main__title-text_highlight {
-  background:#ECF3FF;  
+  background:#ECF3FF; 
+  margin-bottom: 0 0 40px 0;
+  font: 50px/65px Roboto, arial, helvetica, sans-serif;
+
 }
 .main__button:hover {
     opacity: .5;
