@@ -29,6 +29,7 @@ width: 80%;
 .header {
 display: flex;
 justify-content: space-between;
+margin-bottom: 100px;
 }
 
 .menu {
@@ -80,4 +81,21 @@ align-items: center;
 .logo {
     padding: 40px 0;
     font-family: 'pt_serif';
+}
+
+.main {
+   padding-right: 0 63% 100px 0;
+   background: top right no-repeat url(img/frame.svg);
+}
+
+.main__title {
+    margin-bottom: 0 0 40px 0;
+    font: 50px/65px Roboto, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+    margin-bottom: 0 0 41px 0;
+    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+   font: 14px/16px Roboto, arial, helvetica, sans-serif; 
 }
