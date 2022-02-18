@@ -114,3 +114,7 @@ align-items: center;
 .main__button:hover {
     opacity: .5;
 }
+
+.section {
+    width: 30%;
+}
