@@ -77,6 +77,12 @@ align-items: center;
     padding: 40px 0;
     font-family: 'pt_serif';
 }
+
+.section {
+   margin: auto;
+   width: 80%;
+}
+
 .main {
    padding: 0 63% 100px 0;  
    background: top right no-repeat url(img/frame.svg);
@@ -106,7 +112,4 @@ align-items: center;
 }
 .main__button:hover {
     opacity: .5;
-}
-.section {
-    width: 30%;
 }
