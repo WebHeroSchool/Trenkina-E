@@ -13,7 +13,7 @@ title {
  font-family: 'Roboto';   
 }
 body {
-  margin: 47px;
+  margin: 40px;
 }
 
 .wrapper {
@@ -78,26 +78,22 @@ align-items: center;
     font-family: 'pt_serif';
 }
 
-.section {
-   margin: auto;
-   width: 80%;
-}
 
 .main {
-   padding: 0 63% 100px 0;  
+   padding-top: 199px; 
    background: top right no-repeat url(img/frame.svg);
 }
 .main__title {
     margin-bottom: 0 0 40px;
-    font: 700 50px/65px pt_serif;
+    font: 700 66px/87px pt_serif;
 }
 .main__subtitle {
     margin-bottom: 0 0 41px;
-    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+    font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
    display: inline-block;
-   font: 14px/16px Roboto, arial, helvetica, sans-serif; 
+   font: 500 18px/21px Roboto, arial, helvetica, sans-serif; 
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
@@ -108,7 +104,7 @@ align-items: center;
 .main__title-text_highlight {
   background:#ECF3FF; 
   margin-bottom: 0 0 40px;
-  font: 700 50px/65px 'pt_serif';
+  font: 700 66px/87px 'pt_serif';
 }
 .main__button:hover {
     opacity: .5;
