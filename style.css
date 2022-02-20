@@ -1,43 +1,51 @@
 .main-content__title {
 
- font-family: "pt_serifbold";
+ font-family: 'pt_serifbold';
 }
+
 title {
-    font-family: "pt_serif";
+    font-family: 'pt_serif';
 }
 .main-content__subtitle {
- font-family: "Roboto", "sans-serif";
+ font-family: 'Roboto', sans-serif;
 }
 .menu__item {
- font-family: "Roboto";   
+ font-family: 'Roboto';   
 }
 body {
-  margin: 40px;
+  margin: 47px;
 }
+
 .wrapper {
 margin: auto;
 width: 80%;
 }
+
+
 .header {
 display: flex;
 justify-content: space-between;
 margin-bottom: 100px;
 }
+
 .menu {
 display: flex;
 align-items: center;
 }
+
 .menu__item {
     position: relative;
     margin-right: 26px;
-    font: 500 18px/21px "Roboto", "arial", "helvetica", "sans-serif";
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
 }
+
 .menu__item:last-child {
     margin-right: 0;
 }
+
 .menu__item_active:after {
     position: absolute;
     display: block;
@@ -67,23 +75,23 @@ align-items: center;
 }
 .logo {
     padding: 40px 0;
-    font-family: "pt_serif";
+    font-family: 'pt_serif';
 }
 .main {
-   padding: 0 30% 199px 0;  
+   padding: 0 63% 100px 0;  
    background: top right no-repeat url(img/frame.svg);
 }
 .main__title {
-    margin-bottom: 0 0 199px;
-    font-family: 700 66px/87px "pt_serif";
+    margin-bottom: 0 0 40px;
+    font: 700 50px/65px pt_serif;
 }
 .main__subtitle {
     margin-bottom: 0 0 41px;
-    font-family: 400 22px/25px "Roboto";
+    font-family: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
    display: inline-block;
-   font-family: 500 18px/21px "Roboto"; 
+   font: 14px/16px Roboto, arial, helvetica, sans-serif; 
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
@@ -94,7 +102,7 @@ align-items: center;
 .main__title-text_highlight {
   background:#ECF3FF; 
   margin-bottom: 0 0 40px;
-  font-family: 700 50px/65px "pt_serif";
+  font: 700 50px/65px 'pt_serif';
 }
 .main__button:hover {
     opacity: .5;
