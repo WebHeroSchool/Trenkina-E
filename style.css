@@ -17,7 +17,7 @@ title {
 }
 
 body {
-  margin: 47px;
+  margin: 40px;
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ align-items: center;
 }
 
 .main__title {
-    margin-bottom: 0 0 40px;
+    margin-bottom: 0 0 199px;
     font: 700 66px/87px pt_serif;
 }
 .main__subtitle {
