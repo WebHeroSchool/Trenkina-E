@@ -84,21 +84,21 @@ align-items: center;
 }
 
 .main {
-   padding: 0 63% 100px 0;  
+   padding: 0 30% 199px 0;  
    background: top right no-repeat url(img/frame.svg);
 }
 
 .main__title {
     margin-bottom: 0 0 40px;
-    font: 700 50px/65px pt_serif;
+    font: 700 66px/87px pt_serif;
 }
 .main__subtitle {
     margin-bottom: 0 0 41px;
-    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+    font:400 22px/25px Roboto;
 }
 .main__button {
    display: inline-block;
-   font: 14px/16px Roboto, arial, helvetica, sans-serif; 
+   font: 500 18px/21px Roboto; 
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
