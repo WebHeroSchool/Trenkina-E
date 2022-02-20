@@ -87,7 +87,7 @@ align-items: center;
 }
 .main__subtitle {
     margin-bottom: 0 0 41px;
-    font-family: 18px/21px Roboto, arial, helvetica, sans-serif;
+    font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
    display: inline-block;
