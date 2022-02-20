@@ -108,7 +108,7 @@ align-items: center;
 }
 .main__title-text_highlight {
   background:#ECF3FF; 
-  margin-bottom: 0 0 40px 0;
+  margin-bottom: 0 0 40px;
   font: 700 50px/65px 'pt_serif';
 }
 .main__button:hover {
