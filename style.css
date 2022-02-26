@@ -46,7 +46,7 @@ align-items: center;
     margin-right: 0;
 }
 
-.menu__item_active:after {
+.menu__item_active::after {
     position: absolute;
     display: block;
     content: '';
