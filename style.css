@@ -18,7 +18,7 @@ body {
 
 .wrapper {
 margin: auto;
-width: 80%;
+width: 79%;
 }
 
 
@@ -107,4 +107,9 @@ align-items: center;
 }
 .main__button:hover {
     opacity: .5;
+}
+@media (max-width: 768px) {
+ .menu {
+    display: none;
+ }
 }
