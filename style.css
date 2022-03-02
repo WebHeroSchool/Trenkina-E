@@ -112,4 +112,23 @@ align-items: center;
  .menu {
     display: none;
  }
+.main {
+    margin-bottom: 28px;
+}
+.main {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+}
+.main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+   margin-bottom: 25px;
+    font: bold 16px/19px pt_serif, arial, helvetica, sans-serif; 
+}
+.main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
 }
