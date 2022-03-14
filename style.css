@@ -132,3 +132,17 @@ align-items: center;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 }
+.main__button:hover {
+    background: #330099;
+}
+@keyframes buttonMovi {
+  from {
+    left: 0;
+  }  
+  50% {
+    left: 300px;
+  }
+  100% {
+    left: 0;
+  }
+}
