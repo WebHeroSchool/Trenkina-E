@@ -18,7 +18,7 @@ body {
 
 .wrapper {
 margin: auto;
-width: 80%;
+width: 79%;
 }
 
 
@@ -107,4 +107,52 @@ align-items: center;
 }
 .main__button:hover {
     opacity: .5;
+}
+@media (max-width: 768px) {
+ .menu {
+    display: none;
+ }
+.main {
+    margin-bottom: 28px;
+}
+.main {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+}
+.main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+   margin-bottom: 25px;
+    font: bold 16px/19px pt_serif, arial, helvetica, sans-serif; 
+}
+.main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+}
+.main__button:hover {
+    background: #330099;
+}
+@keyframes buttonMovi {
+  from {
+    left: 0;
+  }  
+  50% {
+    left: 300px;
+  }
+  100% {
+    left: 0;
+  }
+}
+.wrap {
+    position: relative;
+}
+.main__button {
+    position: absolute;
+    width: 50 px;
+    height: 50px;
+    background: red;
+    animation: buttonMovi 2s infinite ease-in-out;
 }
